@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/cadastro.css">
+    <title>Cadastrar-se</title>
+</head>
+
+<body>
+    <main>
+        <section class="s-form">
+            <div class="d-form">
+                <form id="form-cadastro">
+                    <h1>Crie uma conta</h1>
+                    <div class="inputbox">
+                        <input type="email" id="cadastroEmail" required>
+                        <label for="cadastroEmail">E-mail:</label>
+
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="password" id="cadastroSenha" required>
+                        <label for="cadastroSenha">Senha (6 ou mais dígitos):</label>
+                    </div>
+
+                    <p class="link-cadastro">
+                       <a href="./index.html">Já possui uma conta?</a> 
+                    </p>
+
+                    <button type="submit">Cadastrar-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <script type="module" src="./JS/contas.js"></script>
+    <script type="module" src="./JS/firebase.js"></script>
+</body>
+
+</html>

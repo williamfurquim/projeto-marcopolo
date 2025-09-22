@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/lista.css">
+    <title>Lista de itens</title>
+</head>
+<body>
+    <main>
+        <section class="s-texto">
+                <h1>ITENS PARA <br> MANUTENÇÃO</h1>
+                <input type="text" class="pesquisar" placeholder="Pesquisar...">
+        </section>
+
+        <section class="s-lista">
+            <div class="d-lista">
+                <ul id="lista" class="lista"></ul>
+            </div>
+        </section>
+
+        <section class="s-buttons">
+            <div class="d-buttons">
+                <button onclick="window.location.href='./setores.html'">🔍</button>
+                <button onclick="window.location.href='./formulario.html'" id="select">➕️</button>
+                <button>👤</button>  
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./JS/firebase.js"></script>
+    <script type="module" src="./JS/lista.js"></script>
+
+</body>
+</html>

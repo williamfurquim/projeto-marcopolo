@@ -1,0 +1,6 @@
+Quantidade de pedidos 
+Conta
+
+Imagem
+Prioridade
+Status

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/formulario.css">
+    <title>Formulário de item</title>
+</head>
+
+<body>
+    <main>
+        <section class="s-texto">
+            <h1>FORMULÁRIO DE <br> MANUTENÇÃO</h1>
+        </section>
+
+        <section class="s-form">
+            <div class="d-form">
+                <form id="form">
+                    <div class="inputbox">
+                        <input type="text" id="inputNome" name="inputNome" required>
+                        <label for="inputNome">Qual o seu nome?</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="text" id="inputDefeito" name="inputDefeito" required>
+                        <label for="inputDefeito">Qual o defeito?</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <textarea id="inputDescricao" name="inputDescricao" required></textarea>
+                        <label for="inputDescricao">Faça uma descrição aqui</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="date" id="inputData" name="inputData" required>
+                        <label for="inputData"></label>
+                    </div>
+
+
+                    <button type="submit">Relatar</button>
+                </form>
+
+            </div>
+        </section>
+
+        <section class="s-buttons">
+            <div class="d-buttons">
+                <button onclick="window.location.href='./setores.html'">🔍</button>
+                <button onclick="window.location.href = 'lista.html'">↩️</button>
+                <button>👤</button>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script type="module" src="./JS/firebase.js"></script>
+    <script type="module" src="./JS/formulario.js"></script>
+</body>
+
+</html>

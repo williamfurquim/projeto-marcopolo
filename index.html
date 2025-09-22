@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <section class="s-form">
+            <div class="d-form">
+                <form id="form-login">
+
+                    <h1>Acesse a sua conta!</h1>
+                    <div class="inputbox">
+                        <input type="email" id="loginEmail" required>
+                        <label for="loginEmail">E-mail:</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="password" id="loginSenha" required>
+                        <label for="loginSenha">Senha:</label>
+                    </div>
+
+                    <p class="link-cadastro">
+                       <a href="./cadastro.html">Não possui uma conta?</a> 
+                    </p>
+                    <button type="submit">Login</button>
+                </form>
+                                 
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./JS/contas.js"></script>
+    <script type="module" src="./JS/firebase.js"></script>
+</body>
+
+</html>
